@@ -8,7 +8,7 @@
 - `apt install git -y`
 - Clone the repository: `git clone https://github.com/Balta-Python/DDos-Flood.git`
 - Install pip requirements: `pip3 install -r requirements.txt`
-- Usage: `python3 script.py [-h] [-u USER_AGENTS] -t TARGET -tr THREADS -s SLEEP`
+- Usage: `python3 ddos-flood.py [-h] [-u USER_AGENTS] -t TARGET -tr THREADS -s SLEEP`
 - Example: `python3 ddos-flood.py -u user_agents.txt -t http://example.com -tr 1000 -s 200`
 
 #### Disclaimer
