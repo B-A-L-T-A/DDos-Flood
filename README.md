@@ -1,5 +1,5 @@
 # DDos Flood
-#### A distributed denial of service (DDoS) attack is an attempt to make an online service unavailable overwhelmed with traffic from multiple sources. They target a wide variety of important resources, from banks to news websites, and present a great challenge in making sure people can post and access important information.
+#### A SYN flood (half open attack) is a type of denial of service (DDoS) attack that attempts to make a server unavailable for legitimate traffic by consuming all of its available resources. By repeatedly sending initial connection request (SYN) packets, the attacker can overload all available ports on the attacked server, causing the device to respond to legitimate traffic very slowly or even not respond at all.
 
 ## Installation:
 - `apt update && apt upgrade -y`
