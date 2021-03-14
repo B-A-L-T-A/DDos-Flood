@@ -32,7 +32,7 @@ def banner():
     print(Fore.LIGHTCYAN_EX + "l", end="")
     print(Fore.LIGHTRED_EX + "t", end="")
     print(Fore.LIGHTYELLOW_EX + "a", end="")
-    time.sleep(2)
+    time.sleep(1)
     print(Fore.LIGHTRED_EX + """
     
  (                                          
@@ -44,7 +44,7 @@ def banner():
 | |__/ -_)|  _|  (_-< / _` / _ \  | | ' \)) 
 |____\___| \__|  /__/ \__, \___/  |_|_||_|  
                       |___/""")
-    time.sleep(2)
+    time.sleep(3)
     print("""            
      )  
   ( /(  
