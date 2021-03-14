@@ -11,6 +11,7 @@ from random import randrange
 from colorama import init, Fore
 
 os.system("clear")
+
 def banner():
     print(Fore.LIGHTGREEN_EX + """
  ____    ____                              ____    ___                       __  __  __     
