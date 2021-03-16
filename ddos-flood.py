@@ -75,14 +75,14 @@ def banner():
  |_|""")
     time.sleep(2)
     print(Fore.WHITE + """
-                     \ \|/ /
-                      (O O)
-    +-------------oOO--(_)-----------------+
-    | ¡¡Denial of service attack started!! |
-    +---------------------oOO--------------+
-                     |__|__|
-                      | | |
-                     ooO Ooo
+                 \ \|/ /
+                  (O O)
++-------------oOO--(_)-----------------+
+| ¡¡Denial of service attack started!! |
++---------------------oOO--------------+
+                 |__|__|
+                  | | |
+                 ooO Ooo
     """, Fore.LIGHTGREEN_EX + "")
 
 
