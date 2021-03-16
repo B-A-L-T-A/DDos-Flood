@@ -34,7 +34,6 @@ def banner():
     print(Fore.LIGHTCYAN_EX + "l", end="")
     print(Fore.LIGHTRED_EX + "t", end="")
     print(Fore.LIGHTYELLOW_EX + "a", end="")
-    time.sleep(1)
     print(Fore.LIGHTRED_EX + """
     
  (                                          
