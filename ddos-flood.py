@@ -1,5 +1,3 @@
-#Coded by Balta
-
 import argparse
 import threading
 import time
@@ -12,39 +10,63 @@ from colorama import init, Fore
 
 os.system("clear")
 
-def banner():
-    print(Fore.LIGHTGREEN_EX + """
- ____    ____                              ____    ___                       __  __  __     
-/\  _`\ /\  _`\                           /\  _`\ /\_ \     v1.0            /\ \/\ \/\ \    
-\ \ \/\ \ \ \/\ \    ___     ____         \ \ \L\_\//\ \     _ _     ___    \_\ \ \ \ \ \   
- \ \ \ \ \ \ \ \ \  / __`\  /',__\  _______\ \  _\/ \ \ \   / __`\  / __`\  /'_` \ \ \ \ \  
-  \ \ \_\ \ \ \_\ \/\ \L\ \/\__, `\/\______ \\ \ \/  \_\ \_/\ \L\ \/\ \L\ \/\ \L\ \ \_\ \_\ 
-   \ \____/\ \____/\ \____/\/\____/\/______/ \ \_\   /\____\ \____/\ \____/\ \___,_\/\_\/\_\ 
-    \/___/  \/___/  \/___/  \/___/            \/_/   \/____/\/___/  \/___/  \/__,_ /\/_/\/_/""")
 
-    print(Fore.LIGHTBLUE_EX + "     C", end="")
-    print(Fore.LIGHTBLACK_EX + "o", end="")
-    print(Fore.LIGHTCYAN_EX + "d", end="")
-    print(Fore.LIGHTRED_EX + "e", end="")
-    print(Fore.LIGHTYELLOW_EX + "d ", end="")
-    print(Fore.LIGHTGREEN_EX + "b", end="")
-    print(Fore.LIGHTWHITE_EX + "y ", end="")
+def banner():
+    print(f'''
+{Fore.LIGHTMAGENTA_EX} _____     _____     ______     ______              
+{Fore.LIGHTBLUE_EX}/\  __-.  /\  __-.  /\  __ \   /\  ___\             
+{Fore.LIGHTCYAN_EX}\ \ \/\ \ \ \ \/\ \ \ \ \/\ \  \ \___  \            
+{Fore.LIGHTRED_EX} \ \____-  \ \____-  \ \_____\  \/\_____\           
+  \/____/   \/____/   \/_____/   \/_____/           
+{Fore.LIGHTGREEN_EX}      Author: Balta            V1.0                                           
+{Fore.LIGHTRED_EX} ______   __         ______     ______     _____    
+{Fore.LIGHTBLUE_EX}/\  ___\ /\ \       /\  __ \   /\  __ \   /\  __-.  
+{Fore.LIGHTCYAN_EX}\ \  __\ \ \ \____  \ \ \/\ \  \ \ \/\ \  \ \ \/\ \ 
+{Fore.LIGHTRED_EX} \ \_\    \ \_____\  \ \_____\  \ \_____\  \ \____- 
+{Fore.LIGHTGREEN_EX}  \/_/     \/_____/   \/_____/   \/_____/   \/____/ ''')
+
+    print(Fore.LIGHTBLUE_EX + "   h", end="")
+    print(Fore.LIGHTBLACK_EX + "t", end="")
+    print(Fore.LIGHTCYAN_EX + "t", end="")
+    print(Fore.LIGHTRED_EX + "p", end="")
+    print(Fore.LIGHTYELLOW_EX + "s", end="")
+    print(Fore.LIGHTGREEN_EX + ":", end="")
+    print(Fore.LIGHTWHITE_EX + "/", end="")
+    print(Fore.LIGHTBLUE_EX + "/", end="")
+    print(Fore.LIGHTBLACK_EX + "g", end="")
+    print(Fore.LIGHTCYAN_EX + "i", end="")
+    print(Fore.LIGHTRED_EX + "t", end="")
+    print(Fore.LIGHTYELLOW_EX + "h", end="")
+    print(Fore.LIGHTBLACK_EX + "u", end="")
+    print(Fore.LIGHTCYAN_EX + "b", end="")
+    print(Fore.LIGHTRED_EX + ".", end="")
+    print(Fore.LIGHTYELLOW_EX + "c", end="")
+    print(Fore.LIGHTGREEN_EX + "o", end="")
+    print(Fore.LIGHTBLACK_EX + "m", end="")
+    print(Fore.LIGHTWHITE_EX + "/", end="")
     print(Fore.LIGHTBLUE_EX + "B", end="")
     print(Fore.LIGHTBLACK_EX + "a", end="")
     print(Fore.LIGHTCYAN_EX + "l", end="")
     print(Fore.LIGHTRED_EX + "t", end="")
     print(Fore.LIGHTYELLOW_EX + "a", end="")
+    print(Fore.LIGHTBLUE_EX + "-", end="")
+    print(Fore.LIGHTBLACK_EX + "P", end="")
+    print(Fore.LIGHTCYAN_EX + "y", end="")
+    print(Fore.LIGHTRED_EX + "t", end="")
+    print(Fore.LIGHTYELLOW_EX + "h", end="")
+    print(Fore.LIGHTGREEN_EX + "o", end="")
+    print(Fore.LIGHTWHITE_EX + "n", end="")
     print(Fore.LIGHTRED_EX + """
-    
- (                                          
- )\ )         ) (                           
-(()/(   (  ( /( )\     (  (       (         
- /(_)) ))\ )\()|(_|    )\))( (    )\  (     
-(_))  /((_|_))/   )\  ((_))\ )\  ((_) )\ )  
-| |  (_)) | |_   ((_)  (()(_|(_)  (_)_(_/(  
-| |__/ -_)|  _|  (_-< / _` / _ \  | | ' \)) 
-|____\___| \__|  /__/ \__, \___/  |_|_||_|  
-                      |___/""")
+               
+                             
+ (         ) (                
+ )\  (  ( /( )\     (  (      
+((_)))\ )\()|(_|    )\))( (   
+ _ /((_|_))/   )\  ((_))\ )\  
+| (_)) | |_   ((_)  (()(_|(_) 
+| / -_)|  _|  (_-< / _` / _ \ 
+|_\___| \__|  /__/ \__, \___/ 
+                   |___/ """)
     time.sleep(3)
     print("""            
      )  
@@ -165,3 +187,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
